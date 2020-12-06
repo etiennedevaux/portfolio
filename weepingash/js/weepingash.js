@@ -1,3 +1,5 @@
+// List of global variables
+var jsfileversion='0001';//Version number to assist online debugging
 function showMenuComponent(sect) {
 var elements = document.getElementsByClassName("MenuComponent");
 

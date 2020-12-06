@@ -3,6 +3,7 @@
 --menubuttonwidth: 33.3333333333333%;
 --footergrey:#ffffffcc;
 --goldtext:#d4af37ff; /* Defines the gold color, used for the menu bar text. */
+--lightgrey:#e5e5e5;; /* Light grey color for use across the site */
 }
 body{
 font-family: Arial;
@@ -18,6 +19,9 @@ display: block;
 footer{
 position: fixed;
 bottom: 0;
+width: 100%;
+text-align: center;
+background-color: var(--lightgrey);
 }
 h1{
 margin: 10px 0px 5px 0px;
